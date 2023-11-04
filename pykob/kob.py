@@ -103,7 +103,7 @@ class KOB:
         if useGpio and gpioModuleAvailable:
             try:
                 self.gpi = Button(21, pull_up=True)  # GPIO21 is key input.
-                self.gpo = LED(26)  # GPIO26 used to drive sounder.
+                self.gpo = LED(23)  # GPIO23 used to drive sounder.
                 self.keyCallback = keyCallback
                 self.useGpioOut = True
                 self.useGpioIn = True
