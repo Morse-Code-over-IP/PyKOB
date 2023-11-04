@@ -9,47 +9,11 @@ The MKOB application provides a full graphical interface that allows the
 station to connect to a MorseKOB wire on the Morse KOB server. Instructions
 for running the MKOB application are in the MKOB-README.
 
-# Simple 'Getting Started'
-Even if you aren't familiar with Git/GitHub, it is easy to grab a ZIP file from it. You can also use the 'Issues' section to report problems and request features.
-Of course, I recomment using Git/GitHUB, as that makes it trivial to get updates when they become available.
-
-The repository on GitHub: https://github.com/MorseKOB/PyKOB
-
-## Using Git/GitHub
-To get going...
-
-* `git clone --depth 1 https://github.com/MorseKOB/PyKOB.git`
-
-To update, you then simply (from the PyKOB folder):
-
-* `git pull`
-That will 'pull' the latest updates.
-
-## Using a ZIP
-To grab a ZIP:
-
-* Open the GitHub page: https://github.com/MorseKOB/PyKOB
-* Click the green [<> Code] button
-* At the bottom of the drop-down is 'Download ZIP'
-
-Once you have the zip, simply unzip it (make sure you unzip it as the full folder/directory structure) into a folder.
-
-## Install Python Libraries
-PyKOB will run with just the base Python (3.11) installation, However, you will probably want to install these libraries to get the most out of it.
-
-To use the system sound (to simulate a sounder) you will need **PyAudio**. To interface with a key & sounder, you will need **pySerial**
-Follow the instructions here:
-
-### PyAudio
- https://pypi.org/project/PyAudio/
-
-### pySerial
- https://pyserial.readthedocs.io/en/latest/pyserial.html
-
 ## Getting Started
 It is suggested that you set all of the configuration options before running utilities or MKOB for the first time. To do that:
 
 * Open a Command/Terminal window in the PyKOB folder
+* Install the dependencies: `pip install -r requirements.txt`
 * (I suggest running) `python3 --version` (to make sure you are running a 3.11.xx version)
 * If your Python version is not 3.11.xx you will need to upgrade it.
 * Run: `python3 Configure.py`

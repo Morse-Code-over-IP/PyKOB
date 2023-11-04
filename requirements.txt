@@ -1,1 +1,3 @@
 tk
+pyaudio
+pyserial
