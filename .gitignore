@@ -15,3 +15,4 @@ pyinstall/w/MKOB/
 Capture-Replay/*.txt
 # Ignore JSON files from recordings. If JSON files are needed in the source, include them with a '!' line.
 *.json
+__pycache__
